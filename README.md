@@ -72,18 +72,24 @@ todo-docker-app/
 
 
 git clone https://github.com/Yousuf-Almathehaji/todo-docker-app.git
+
 cd todo-docker-app
 
 2) Start containers
 docker compose up --build
 
 3) Open in browser
-http://your server IP 
+http:// your server IP 
 ## IF you down have external server use
 http://localhost
 
 
 ## Application Screenshot
 
-![Todo App Screenshot](docs/screenshot.png)
+## 📸 Application Preview
+
+<p align="center">
+  <img src="docs/screenshot.png" width="700"/>
+</p>
+
 
