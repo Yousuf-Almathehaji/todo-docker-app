@@ -78,18 +78,24 @@ todo-docker-app/
 
 ### 1) Clone repository
 
-
+```bash
 git clone https://github.com/Yousuf-Almathehaji/todo-docker-app.git
-
+```
+```bash
 cd todo-docker-app
-
+```
 2) Start containers
+```bash
 docker compose up --build
-
+```
 3) Open in browser
-http:// your server IP 
-## IF you down have external server use
+```bash
+http:// your server IP
+``` 
+ IF you down have external server use
+```bash
 http://localhost
+```
 
 
 
