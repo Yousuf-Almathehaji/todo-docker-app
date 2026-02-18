@@ -42,8 +42,15 @@ Each service runs in its own container and communicates internally via Docker ne
 
 ---
 
+## 📸 Application Preview
+
+<p align="center">
+  <img src="docs/screenshot.png" width="700"/>
+</p>
+
 ## Project Structure
 
+```bash
 todo-docker-app/
 │
 ├── api/
@@ -59,8 +66,9 @@ todo-docker-app/
 │   └── init.sql
 │
 ├── docker-compose.yml
-├── .gitignore
 └── README.md
+```
+
 
 
 
@@ -84,12 +92,8 @@ http:// your server IP
 http://localhost
 
 
-## Application Screenshot
 
-## 📸 Application Preview
 
-<p align="center">
-  <img src="docs/screenshot.png" width="700"/>
-</p>
+
 
 
