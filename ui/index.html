@@ -68,7 +68,7 @@
   </div>
 
   <script>
-    
+    // if you don't have external server write localhost before the port number
     const API = "http://3.29.67.88:3000/todos";
 
     async function load() {
@@ -77,7 +77,7 @@
         const data = await res.json();
         const list = document.getElementById("list");
 
-        // ترتيب البيانات حسب id
+        
         data.sort((a,b) => a.id - b.id);
 
         list.innerHTML = data.map(t => `
@@ -102,7 +102,7 @@
         body: JSON.stringify({task})
       });
 
-      taskInput.value = ""; // مسح حقل الإدخال
+      taskInput.value = ""; 
       load();
     }
 
