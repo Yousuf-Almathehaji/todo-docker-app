@@ -45,7 +45,7 @@ Each service runs in its own container and communicates internally via Docker ne
 ## 📸 Application Preview
 
 <p align="center">
-  <img src="docs/screenshot.png" width="700"/>
+  <img src="docs/docker-ui.PNG" width="700"/>
 </p>
 
 ## Project Structure
